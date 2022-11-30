@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Umay Game Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <!--BG GLOW-->
+                <div class="glowing">
+                    <span style="--i:1;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:3;"></span>
+                    <span style="--i:4;"></span>
+                    <span style="--i:5;"></span>
+                    <span style="--i:6;"></span>
+                </div>
+            </div>
+            <div class="col-8  ">
+                <div class="row">
+                    <!-- #region brand-->
+                    <div class="container">
+                        <img class="anim" src="./images/umay.png">
+                        <div class="text-container">
+                            <h1 class="neon" data-text="UMAY">UMAY</h1>
+                        </div>
+                        <input class="check" type="checkbox">
+                        <span class="line">__________________</span>
+                        <div> <span>game studio</span></div>
+                        </input>
+                    </div>
+            
+                    <!--#endregion-->
+                </div>
+
+            </div>
+            <div class="col-1">
+                <!--BG GLOW-->
+                <div class="glowing">
+                    <span style="--i:1;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:3;"></span>
+                    <span style="--i:4;"></span>
+                    <span style="--i:5;"></span>
+                    <span style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!--#region buttons-->
+            <div class="wrapper">
+                <a class="navButton" href="#About">About</a>
+                <a class="navButton" href="#Works">Recent Works</a>
+                <a class="navButton" href="#Contact">Contact Us</a>
+            </div>
+            <!-- #endregion -->
+        </div>
+
+        <div class="row">
+            
+            <!-- #region about-->
+            <div class="container-header">
+                <h1 id="About">About Us</h1>
+            </div>
+            <h3>Umay Game Studio is a game development studio of two young woman from Turkey.
+                Studio has been developing games since 2021. Studio is mainly focused on hyper-casual games.</h3>
+            
+                <div class="col-5">
+                    <ul>
+                            <div class="glowing">
+                            <span style="--i:1;"></span>
+                            <span style="--i:2;"></span>
+                            <span style="--i:3;"></span>    
+                            <span style="--i:4;"></span>
+                            <span style="--i:5;"></span>
+                            <span style="--i:6;"></span> 
+                        </div>  
+                        <li>
+                            <img class="potrait" src="./images/inc.png" >
+                            <h3>İlayda Nur Ceylan</h3>
+                            <h4>Co-Founder</h4>
+                            <h5>İzmir, Türkiye</h5> 
+                            <div class="button-container">
+                                <button onclick="copyToClipboard('iMail')" class="linkbutton" id="iMail"  value="ilaydanurceylan@gmail.com">e-Mail
+                                    <div class="container-tooltip">
+                                        click to copy
+                                    </div>
+                                </button>
+                                <a class="linkbutton"  href="https://www.linkedin.com/in/ilayda-nur-ceylan-0046a3180/">LinkedIn</a>
+                            </div>
+                            
+                        </li>   
+                    </ul>
+                     
+                </div>
+                <div class="col-5">
+                    <ul>
+                        <div class="glowing">
+                            <span style="--i:1;"></span>
+                            <span style="--i:2;"></span>
+                            <span style="--i:3;"></span>
+                            <span style="--i:4;"></span>
+                            <span style="--i:5;"></span>
+                            <span style="--i:6;"></span>
+                        </div>
+                        <li>    
+                            <img class="potrait" src="./images/se.png">
+                            <h3>Sevil Erdal</h3>
+                            <h4>Co-Founder</h4>
+                            <h5>Eskişehir, Türkiye</h5>
+                            <div class="button-container">
+                                
+                                <button class="linkbutton" onclick="copyToClipboard('sMail')" id="sMail"  value="sevil.ozgur.erdal@gmail.com" >e-Mail
+                                    <div class="container-tooltip">
+                                        click to copy
+                                    </div>
+                                </button>
+                                    
+                                <a class="linkbutton"  href="https://linkedin.com/in/sevil-erdal">LinkedIn</a>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                    
+                    
+                </div>
+                <div class="container">
+                    <a class="linkbutton"  href="https://play.google.com/store/apps/dev?id=7374091475508722306">View in Google Play</a>
+                </div>
+                
+            <!-- #endregion -->
+        </div>
+        <div class="row">
+            <!-- #region works-->
+            <div class="container-header">
+                <h1 id="Works">Recent Works</h1>
+            </div>
+            
+            <div class="container">
+                <img src="./images/rstrtn.png" >
+                <h3>Restoration 3D</h3>
+                <h4>Coming soon!</h4>
+            </div>
+            <div class="container">
+                <img src="./images/gndwn.png" >
+                <h3>Goin' Down</h3>
+                <div class="btnwrapper">
+                    <a href="https://play.google.com/store/apps/details?id=com.UmayGameDev.GoinDown" class="gplaybutton">
+                    <img src="./images/gplay.png">  </a>
+                </div>
+            </div>
+            <div class="container">
+                    <img src="./images/shtrtrck.png" >
+                    <h3>Shooter Track</h3>
+                    <div class="btnwrapper">
+                    <a href="https://play.google.com/store/apps/details?id=com.UmayGameDev.ShooterTrack" class="gplaybutton">
+                    <img src="./images/gplay.png"></a>
+                </div>
+                
+                
+            </div>
+            <!-- #endregion -->
+        </div>
+        <div class="row">
+            <!-- #region contact-->
+            <div class="container-header">
+                <h1 id="Contact">Contact Us</h1>
+            </div>
+            <div class="col-3">
+                <div class="container">
+                    <h4 >Umay Game Studio</h4>
+                    <div class="wrapper">
+                        <button onclick="copyToClipboard('umaymail')" class="c-button" id="umaymail" value="umaystudios@gmail.com" >
+                            <div class="container-tooltip">
+                                click to copy
+                            </div>
+                          <div class="icon"> <i class="fab fa-google"></i></div>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-3">
+                <div class="container">
+                    <h4>Sevil Erdal</h4>
+                    <div class="wrapper">
+                        <a class="c-button " href="https://github.com/sevilerdal"> 
+                          <div class="icon"><i class="fab fa-github"></i></div>
+                        </a>
+                        <a class="c-button" href="https://linkedin.com/in/sevil-erdal">
+                          <div class="icon"><i class="fab fa-linkedin-in"></i></div>
+                        </a>  
+                        <button onclick="copyToClipboard('smail')" class="c-button" id="smail" value="sevil.ozgur.erdal@gmail.com" >
+                            <div class="container-tooltip">
+                                click to copy
+                            </div>
+                          <div class="icon"> <i class="fab fa-google"></i></div>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-3">
+                <div class="container">
+                    <h4>İlayda Nur Ceylan</h4>
+                    <div class="wrapper">
+                        <a class="c-button " href="https://github.com/dayday97"> 
+                          <div class="icon"><i class="fab fa-github"></i></div>
+                        </a>
+                        <a class="c-button" href="https://www.linkedin.com/in/ilayda-nur-ceylan-0046a3180/">
+                          <div class="icon"><i class="fab fa-linkedin-in"></i></div>
+                        </a>  
+                        <button onclick="copyToClipboard('imail')" class="c-button" id="imail" value="ilaydanurceylan@gmail.com" >
+                            <div class="container-tooltip">
+                                click to copy
+                            </div>
+                          <div class="icon"> <i class="fab fa-google"></i></div>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- #endregion -->
+        </div>
+
+        <div class="row">
+                <h6>Made with love  &hearts; </h6>
+                
+                <h6>Umay Game Studio  &#127776;- 2022 </h6>
+        </div>
+    </div>
+<script>
+    function copyToClipboard(element) {
+        var copyText = document.getElementById(element);
+        navigator.clipboard.writeText(copyText.value);
+}
+</script>
+    
+    
+</body>
+</html>
